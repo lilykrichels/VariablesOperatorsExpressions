@@ -38,6 +38,42 @@ namespace VariablesOperatorsExpressions
 
             Console.WriteLine(jessicaAge < samAge);
 
+            //In class practeice Problems
+
+            int friends = 4;
+            int billEven = 13;
+            int total = billEven * friends;
+            Console.WriteLine(total);
+
+            int mikeBill = 13;
+            int frankBill = 13;
+            int daveBill = 13;
+            int jimBill = 13;
+            Console.WriteLine(mikeBill + frankBill + daveBill + jimBill);
+
+            int sugar = 7;
+            int sugarUsed = 2;
+            Console.WriteLine(sugar - sugarUsed);
+       
+            int one = 8;
+            int moneyTotal = 40;
+            Console.WriteLine(moneyTotal / one);
+
+            float diaper = 3;
+            float totalMoney = 14;
+            Console.WriteLine(totalMoney / diaper);
+
+            int juliaMiles = 47;
+            int previousMiles = 30;
+            int pranavMiles = juliaMiles - previousMiles;
+            Console.WriteLine(pranavMiles);
+           
+            int myMoney = 12;
+            int perEnvelope = 3;
+            int envelopers = myMoney / perEnvelope;
+            Console.WriteLine(envelopers);
+
+
 
         }
     }
