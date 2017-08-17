@@ -73,7 +73,43 @@ namespace VariablesOperatorsExpressions
             int envelopers = myMoney / perEnvelope;
             Console.WriteLine(envelopers);
 
+            float saladPrice = 5.12f;
+            float endofBalance = 27.10f;
+            Console.WriteLine(saladPrice + endofBalance);
 
+
+
+            int classTotal = 331; 
+            int inCars = 7;
+            int totalBuses = 6;
+            int inBus = (classTotal - inCars) / totalBuses;
+            Console.WriteLine(inBus);
+
+            int totalNumber = 72;
+            int middleNum = totalNumber / 3;
+            int maxNumber = middleNum + 1;
+            int smallNum = middleNum - 1;
+            Console.WriteLine(smallNum);
+
+            int students = 331;
+            int buses = 6;
+            int driven = 7;
+            int studentPerBus = (students - driven) / buses;
+
+            int total1 = 48;
+            int number1 = total1 - 6;
+            Console.WriteLine(number1);
+
+            int sumOfEvenNumbers = 48;
+            int evenOne = sumOfEvenNumbers / 3;
+            int evenTwo = evenOne - 3;
+            int evenThree = evenOne + 2;
+            Console.WriteLine(evenTwo);
+
+            int boughtBoxes = 7;
+            int boxesLeft = 22;
+            int boxesBeforeFire = boxesLeft * 2;
+            Console.WriteLine(boxesBeforeFire);
 
         }
     }
